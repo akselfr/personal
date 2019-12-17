@@ -112,7 +112,7 @@ $sqlSetning="SELECT * FROM rom WHERE hotellnavn LIKE '%$sok%'OR romtype
  }
  else
  {
- print ("Treff i klasse-tabellen: <br />");
+ print ("Treff i rom-tabellen: <br />");
  print ("<table border=1");
  print ("<tr><th align=left>hotellnavn</th> <th align=left>sted</th> <th align=left>sted</th> </tr>");
  for ($r=1;$r<=$antallRader;$r++)
@@ -198,7 +198,7 @@ $sqlSetning="SELECT * FROM romtype WHERE romtype LIKE '%$sok%';";
  }
  else
  {
- print ("Treff i klasse-tabellen: <br />");
+ print ("Treff i romtype-tabellen: <br />");
  print ("<table border=1");
  print ("<tr><th align=left>romtype</th> </tr>");
  for ($r=1;$r<=$antallRader;$r++)
@@ -283,7 +283,7 @@ $sqlSetning="SELECT * FROM hotellromtype WHERE hotellnavn LIKE '%$sok%'OR romtyp
  }
  else
  {
- print ("Treff i klasse-tabellen: <br />");
+ print ("Treff i hotellromtype-tabellen: <br />");
  print ("<table border=1");
  print ("<tr><th align=left>hotellnavn</th> <th align=left>romtype </th> <th align=left>antallrom</th> </tr>");
  for ($r=1;$r<=$antallRader;$r++)
